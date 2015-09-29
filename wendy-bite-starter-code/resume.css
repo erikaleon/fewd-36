@@ -1,0 +1,142 @@
+
+body {
+	color: white;
+	background-color: #444444;
+	padding: 48px;
+	border: 3px solid #777777;
+	margin: 20px auto;
+	width: 600px;
+}
+
+header,
+footer {
+	text-align: center;
+	border-bottom: 1px solid #777777;
+	padding-bottom: 26px;
+}
+
+p.name {
+	color: white;
+	font-style: italic;
+	font-size: 38px;
+	text-align: center;
+	margin: 30px;
+}
+
+p {
+	line-height: 24px;
+	font-size: 18px;
+	color: #EEEEEE;
+}
+
+
+img {
+
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #777777;
+	padding: 3px;
+}  
+
+nav {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid red;
+
+}
+
+a {
+	color: ##6ACC9C;
+	margin: 5px;
+}
+
+
+h1 {
+	color: white;
+	font-family: helvetica;
+	padding: 10px 0px 10px 0px;
+	font-size: 25px;
+}
+
+
+
+h3 {
+	font-family: helvetica;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: #BBBBBB;
+	margin-top: 32px;
+
+}
+
+.xp1 {
+	font-family: helvetica;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.xp2 {
+	font-family: helvetica;
+	color: #FFFFFF;
+}
+
+
+
+.xp3 {
+	font-size: 14px;
+	color: #EEEEEE;
+	font-family: helvetica;
+	color: #BBBBBB;
+}
+
+ul {
+	list-style: square;
+	color: white;
+}
+
+
+div {
+	margin-bottom: 30px;
+}
+
+/*to keep the education bullets separated*/
+ul.spacedout {
+	line-height: 6px;
+}
+
+li {
+	margin-top: 20px;
+}
+
+li:last-child {
+	border: none;
+}
+
+li p {
+	font-size: 18px;
+	color:#BBBBBB;
+	margin-top: 5px;
+}
+
+
+
+footer {
+	border-top: 1px solid #777777;
+}
+
+footer nav {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
