@@ -1,0 +1,88 @@
+
+
+body {
+	color: black;
+	background-color: #FFFEFC;
+	padding: 60px;
+	margin: 0px auto;
+	width: 1000px;
+}
+
+h1.name {
+	font-family: 'Mako', sans-serif;
+	color: #3D3D41;
+	font-size: 50px;
+	font-weight: 700;
+	margin-left: 0px;
+}
+
+.flex-container-navlinks {
+	display: flex;
+	height: 50px;
+	width: 700px;
+	margin: 0 auto;
+	color: #3D3D41;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div {
+	border-bottom-style: solid;
+	border-bottom: 5px #3D3D41;
+}
+
+
+ul {
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+	padding-right: 36px;
+	font-family: 'Mako', sans-serif;
+	color: black;
+	background-position: 100% 10px;
+}
+
+a.contact {
+	font-size: 20px;
+	font-family: 'Mako', sans-serif;
+	font-size: italic;
+	font-weight: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p.bio {
+	font-family: 'Mako', sans-serif;
+	font-size: 16px;
+	margin: 430px 0px 80px 240px;
+	width: 700px;
+	color: #3D3D41;
+}
+
+p {
+	font-family: 'Mako', sans-serif;
+	font-size: 20px;
+}
+
+img.selfie {
+	width: 400px;
+	float: left;
+}
+
+img {
+	width: 230px;
+	margin: 40px;
+	margin-top: 90px;
+	border-radius: 30px;
+	border: 2px solid black;
+	/*border: 5px solid black;*/
+
