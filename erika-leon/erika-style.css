@@ -1,87 +1,129 @@
-
+* {
+	margin: 0;
+	text-decoration: none;
+}
 
 body {
-	color: black;
-	background-color: #FFFEFC;
+	background-color: #E9E7E8;
 	padding: 60px;
 	margin: 0px auto;
-	width: 1000px;
+	width: 100%;
+}
+
+a {
+	color: #3D3D41;
+}
+
+/*header*/
+
+.flex-container-navlinks {
+	display: flex;
+	flex-flow: row wrap;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 4px solid #FEF100;
+	justify-content: space-between;
+	align-items: center;
 }
 
 h1.name {
 	font-family: 'Mako', sans-serif;
 	color: #3D3D41;
-	font-size: 50px;
-	font-weight: 700;
-	margin-left: 0px;
-}
-
-.flex-container-navlinks {
-	display: flex;
-	height: 50px;
-	width: 700px;
-	margin: 0 auto;
+	font-size: 70px;
+	font-weight: 900;
+	margin: 20px 0px 30px 0px;
+	padding-bottom: 50px;
 	color: #3D3D41;
-	justify-content: space-between;
-	align-items: center;
+	/*not sure why font weight isn't working for me*/
 }
 
-div {
-	border-bottom-style: solid;
-	border-bottom: 5px #3D3D41;
-}
-
-
-ul {
-	text-align: right;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+ul.header-navs {
+	padding-bottom: 44px;
+	/*padding-right: 66px;*/
+	color: #FFEB00;
+	line-height: 0;
 }
 
 li {
 	display: inline;
 	text-decoration: none;
-	padding-right: 36px;
-	font-family: 'Mako', sans-serif;
-	color: black;
+	padding-right: 66px;
+	font-family: 'IM Fell English', serif;
+	font-style: italic;
+	color: #E9E7E8;
 	background-position: 100% 10px;
+	font-size: 25px;
 }
 
-a.contact {
-	font-size: 20px;
-	font-family: 'Mako', sans-serif;
-	font-size: italic;
-	font-weight: 10px;
+/*about me page*/
+
+.flex-container-about-me {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 60px;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
-p.bio {
+.bio {
 	font-family: 'Mako', sans-serif;
 	font-size: 16px;
-	margin: 430px 0px 80px 240px;
-	width: 700px;
+/*	margin: 430px 0px 80px 240px;
+	width: 700px;*/
 	color: #3D3D41;
+	margin: 40px;
 }
 
-p {
-	font-family: 'Mako', sans-serif;
-	font-size: 20px;
-}
-
-img.selfie {
+.selfie {
+	height: 400px;
 	width: 400px;
-	float: left;
+	margin: 40px;
+	border: 2px solid #3D3D41;
 }
+
+/*portfolio page*/
+
+.flex-container-portfolio-thumbnails {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+.portfolio-thumbnail {
+	width: 230px;
+	margin: 40px;
+	margin-top: 90px;
+	border: 2px solid #3D3D41;
+}
+
+/*.portfolio-thumbnail {
+	width: 250px;
+	border: 2px solid #3D3D41;
+}*/
+
+/*contact page*/
+
+.flex-container-contact-links {
+	display: flex;
+	height: 300px;
+	width: 100%;
+	flex-flow: row wrap;
+	align-items: stretch;
+	font-size: 20px;
+	font-family: 'Mako', sans-serif;
+	justify-content: space-around;
+	flex: 1;
+	align-items: flex-end;
+}
+
 
 img {
 	width: 230px;
 	margin: 40px;
 	margin-top: 90px;
-	border: 2px solid black;
-	/*border: 5px solid black;*/
+	border: 2px solid #3D3D41;
+}
 

@@ -1,0 +1,122 @@
+body {
+	background-color: #EDEDD7;
+	font-family: verdana;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3 {
+	color: #AA6D4C;
+	font-family: verdana;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+
+h1 {
+	font-size: 22px;
+	margin-bottom: 6px;
+	margin-left: 20px;
+	margin-top: 22px;
+}
+
+p {
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+}
+
+img {
+	margin: 20px;
+}
+
+.sides {
+	display: flex;
+	flex-flow: row;
+}
+
+.left-side {
+	display: flex;
+	background-color: #EDEDD7;
+	flex-flow: column;
+	flex: 2;
+}
+
+.credit {
+	font-family: verdana;
+	font-weight: lighter;
+	color: #98BBA0;
+	margin-bottom: 10px;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.flex-container-time-box {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-top: 12px;
+	font-size: 14px;
+}
+
+.time-box {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	font-family: verdana;
+	margin: 3px;
+}
+
+.left-side h2 {
+	font-size: 14px;
+	margin-bottom: 1px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.left-side li {
+	margin-top: 1px;
+	font-size: 13px;
+}
+
+.right-side {
+	display: flex;
+	background-color: #EDD597;
+	flex-flow: column;
+	flex: 1;
+	padding: 5px 20px 0 20px;
+	font-size: 12px;
+	justify-content:flex-start;
+}
+
+.right-side li {
+	margin-left: 0;
+}
+
+.right-side h3 {
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.this-recipe, .got-questions {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
