@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Switcher</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/color-switcher.css">
+</head>
+
+<body>
+
+	<ul>
+		<li class="cadetblue">cadetblue</li>
+		<li class="goldenrod">goldenrod</li>
+		<li class="indianred">indianred</li>
+		<li class="honeydew">honeydew</li>
+	</ul>
+
+	<h2>Color Scheme Switcher</h2>
+
+	<p>Try clicking on one of the colors above to change the colors on this page!</p>
+<script type="text/javascript">
+	
+function changeColor() {
+	var body = document.querySelector("body")
+	body.setAttribute("class", "cadetblue");
+}
+
+</script>
+</body>
+
+
+
+</html>
