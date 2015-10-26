@@ -5,7 +5,6 @@
 
 body {
 	background-color: #E9E7E8;
-	padding: 60px;
 	margin: 0px auto;
 	width: 100%;
 }
@@ -14,54 +13,99 @@ a {
 	color: #3D3D41;
 }
 
+/*this is doing nothing*/
+:link:hover {
+	color: #E9E7E8;
+}
+
+/*homepage*/
+
+
+div.cover-pigeon {
+	background-image: url(giphy.gif);
+	position: relative;
+	border: 2px solid #FEF100;
+	height: 360px;
+	width: 639px;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 50%
+	left: 50%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+.logo {
+	position: absolute;
+	border: 2px solid #FEF100;
+	margin-top: 37%;
+	margin-left: 76%;
+	padding-left: 4px;
+	width: 123px;
+	font-family: 'Mako', sans-serif;
+	color: #FEF100;
+	font-size: 40px;
+	z-index: 2;
+/*can't get the right-side border 
+would really like to decrease spacing between lines
+also would be cool if it turned blue upon hovering
+
+*/
+}
+
 /*header*/
+
+header {
+
+}
 
 .flex-container-navlinks {
 	display: flex;
-	flex-flow: row wrap;
-	height: 30px;
+	flex-flow: row nowrap;
+	height: 130px;
 	margin-left: 40px;
-	margin-top: 40px;
-	padding-bottom: 20px;
+	margin-right: 40px;
 	border-bottom: 4px solid #FEF100;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 }
 
-h1.name {
+.navlinks {
+	color: #3D3D41;
+	line-height: 0;
+	display: inline;
+	text-decoration: none;
 	font-family: 'Mako', sans-serif;
-	color: #3D3D41;
-	font-size: 70px;
-	font-weight: 900;
-	margin: 20px 0px 30px 0px;
-	padding-bottom: 50px;
-	color: #3D3D41;
-	/*not sure why font weight isn't working for me*/
+	font-style: italic;
+	background-position: 100% 10px;
+	font-size: 18px;
 }
 
-ul.header-navs {
-	padding-bottom: 44px;
-	/*padding-right: 66px;*/
-	color: #FFEB00;
-	line-height: 0;
+.header-logo {
+	color: #FEF100;
+	width: 112px;
+	margin-top: 18px;
+	font-family: 'Mako', sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	align-self: flex-start;
+
 }
 
 li {
+	flex-grow: 1;
 	display: inline;
 	text-decoration: none;
-	padding-right: 66px;
-	font-family: 'IM Fell English', serif;
-	font-style: italic;
-	color: #E9E7E8;
 	background-position: 100% 10px;
-	font-size: 25px;
+	width: 100%;
 }
 
 /*about me page*/
 
 .flex-container-about-me {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
 	margin-top: 60px;
 }
@@ -71,33 +115,92 @@ li {
 	font-size: 16px;
 /*	margin: 430px 0px 80px 240px;
 	width: 700px;*/
+	width: 50%;
 	color: #3D3D41;
 	margin: 40px;
 }
 
 .selfie {
-	height: 400px;
-	width: 400px;
+	width: 50%;
+	height: 100%;
 	margin: 40px;
 	border: 2px solid #3D3D41;
 }
 
+h2 {
+	font-family: 'Mako', sans-serif;
+	font-style: italic;
+	color: #3D3D41;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.resume-categories {
+	font-family: 'Mako', sans-serif;
+	color: #3D3D41;
+	display: flex;
+	flex-direction: column;	
+	margin-bottom: 10px;
+}
+
+.resume-items {
+	font-family: 'Mako', sans-serif;
+	color: #3D3D41;
+	display: flex;
+	flex-direction: row;
+}
+
+.r1 {
+	font-size: 16px;
+	font-style: bold;
+}
+
+.r2 {
+	font-size: 16px;
+	font-style: italic;
+	margin-right: 8px;
+	margin-left: 8px;
+
+}
+
+.r3 {
+	font-size: 16px;
+	color: #FEF100;
+	font-style: italic;
+
+}
+
 /*portfolio page*/
 
-.flex-container-portfolio-thumbnails {
+.portfolio-items {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+
+}
+
+.portfolio-items li {
+	font-family: 'Mako', sans-serif;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+
+/*work on these later - for now, using something simpler*/
+
+/*.flex-container-portfolio-thumbnails {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: space-around;
-	margin-top: 60px;
+	flex: 1 auto;
+	margin-top: 90px;
 }
 
 .portfolio-thumbnail {
 	width: 230px;
 	margin: 40px;
-	margin-top: 90px;
-	border: 2px solid #3D3D41;
-}
+}*/
 
 /*.portfolio-thumbnail {
 	width: 250px;
