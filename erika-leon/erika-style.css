@@ -32,8 +32,7 @@ div.cover-pigeon {
 	background-size: contain;
 	top: 50%
 	left: 50%;
-	margin-left: 20%;
-	margin-top: 10%;
+   	margin: 15% auto auto;
 }
 
 .logo {

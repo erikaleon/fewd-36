@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+.panel {
+	display: flex;
+	flex-flow: row;
+
+}
+
+.left {
+	display: flex;
+	flex-flow: column;
+	background-color: #3F448C;
+	flex: 1;
+	justify-content: right;
+	height: 100%;
+}
+
+.right {
+	display: flex;
+	flex-flow: column;
+	background-color: #FD3854;
+	flex: 1;
+	justify-content: center;
+}
+
+.temp-f {
+	height: 50px;
+	width: 150px;
+	border: 2px solid black;
+	border-right: none;
+	text-align: center;
+	align-self: flex-end;
+	margin: 300px 0;
+}
+
+.temp-c {
+	height: 50px;
+	width: 150px;
+	border: 2px solid black;
+	border-left: none;
+	text-align: center;
+	align-self: flex-start;
+	margin: 300px auto auto 0;
+}
+
