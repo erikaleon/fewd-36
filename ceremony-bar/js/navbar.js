@@ -13,5 +13,4 @@ function getImage(e) {
 	else {
 		navbar.classList.remove("navbar-floating");
 	}
-	console.log(scrollPosition, height);
 }
