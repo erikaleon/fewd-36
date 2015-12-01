@@ -1,0 +1,308 @@
+* {
+	text-decoration: none;
+	margin: 0;
+}
+
+/*navigation bar */
+.navbar-default {
+	background: transparent;
+	border: none;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+	color: #CBFF00;
+	text-shadow: 1px 1px 1px #D9D0CD;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-brand {
+	font-family: 'Alegreya', serif;
+	font-size: 28px;
+	color: white;
+}
+
+.nav navbar-nav navbar-right {
+	color: white;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+a.navlinks {
+	margin: 0px 0px 0px 0px;
+	text-align: right;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.navbar-floating {
+	background-color: white;
+}
+
+.navbar-floating .navbar-nav>li>a {
+	color: black;
+}
+
+/* make navbar "navbar navbar-default" (ie without "fixed-top" for mobile, so it pushes down content)
+
+/*about*/
+
+#homepage-landing {
+	background: url(../images/taco-spread.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+	background-size: cover;	
+}
+
+.filler {
+	height: 600px;
+}
+
+
+.about {
+	padding-top: 10px;
+	background: white;
+	padding: 100px 30px 100px 30px;
+}
+
+.about-paragraph {
+	padding-top: 30px;
+	font-size: 18px;
+	color: #2E2E2E;
+	font-style: italic;
+	font-family: 'Pontano Sans', sans-serif;
+	margin: 10px;
+
+}
+
+/*menu*/
+
+.menu-content {
+	background: white;
+}
+
+.chips-image {
+	width: 100%;
+	top: 0;
+}
+
+.menu-section {
+	display: flex;
+	flex-direction: column;
+	padding-top: 200px;
+}
+
+.menu-section-header {
+	font-size: 36px;
+	align-self: center;
+	font-family: 'Alegreya', serif;
+}
+
+.menu-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	width: 380px;
+	flex-grow: 1;
+	padding: 30px;
+}
+
+.menu-item-head {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.menu-item-price {
+	align-self: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
+}
+
+.menu-item-title {
+	font-size: 18px;
+	font-family: 'Alegreya', serif;
+	font-style: italic;
+}
+
+.menu-item-description {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
+}
+
+/*the space*/
+.space-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.space-image {
+	flex-direction: row;
+	margin: 30px;
+}
+
+.space-image img {
+	width: 300px;
+}
+
+@media (max-width: 600px) {
+	.space-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.space-image {
+		flex-direction: row;
+		margin: 15px;
+	}
+
+	.space-image img {
+		width: 200px;
+	}
+}
+
+@media (min-width: 650px) {
+	.chips-image {
+		height: 400px;
+  		object-fit: cover;
+	}
+}
+
+/*contact and map*/
+
+.contact-content {
+	background: white;
+}
+
+#contact-landing {
+	background: url(../images/street-image.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+	background-size: cover;	
+}
+
+.contact-filler {
+	height: 550px;
+}
+
+.street-image {
+	width: 100%;
+	top: 0;
+	margin-top: -90px;
+}
+
+.sides {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	background: white;
+}
+
+.left-side {
+	width: 40%;
+}
+
+.address {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 80px;
+}
+
+.phone {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.right-side {
+	width: 40%;
+}
+
+#map {
+	height: 350px;
+	width: 450px;
+	margin-top: 80px;
+}
+
+.dates {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.details {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 14px;	
+	margin-left: 20px;
+}
+
+.social-media {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 14px;	
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.twitter {
+	margin-left: 30px;
+}
+
+@media (max-width: 600px) {
+
+	.sides {
+		flex-direction: column-reverse;
+		margin: 20px 10px 30px 10px;
+	}
+
+	.dates, .details, .social-media {
+		margin-left: 0;
+	}
+
+	.address {
+		margin-top: 100px
+	}
+
+	.left-side {
+		text-align: center;
+		width: 100%
+	}
+
+	.right-side {
+		width: 100%;
+	}
+
+	#map {
+		margin-top: 40px;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create element</title>
+</head>
+
+<style>
+label,
+button {
+	display: block;
+	margin: 5px;
+}
+</style>
+<body>
+
+<ul>
+	<li>blue</li>
+	<li>green</li>
+	<li>red</li>
+</ul>
+
+<label>
+	Name
+	<input class="username">
+</label>
+
+<label>
+	Comment
+	<input class="comment">
+</label>
+
+<button>Post</button>
+
+<script>
+//structure
+var list     = document.querySelector("ul");
+var button   = document.querySelector("button");
+var username = document.querySelector(".username");
+var comment  = document.querySelector(".comment");
+
+//events
+button.addEventListener("click", addComment);
+comment.addEventListener("keyup", addComment);
+
+// event handler function
+function addComment(event) {
+	var key = event.keyCode;
+
+	//checking if the keyCode property exists
+	//keyCode 13 is the enter key
+	//if keyCode exists and is not 13
+	//then return early
+	if (key != 13) {
+		return;
+
+	}
+
+	var usernameValue = username.value;
+	var commentValue = comment.value;
+
+	// Step 1 - create the elements
+	var newItem = document.createElement("LI");
+
+	// Step 2 - decorate the elements
+	newItem.textContent = usernameValue + ": " + commentValue;
+
+	// Step 3 - insert the elements
+	list.appendChild(newItem);
+}
+
+
+</script>
+
+</body>
+</html>

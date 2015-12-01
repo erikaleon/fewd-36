@@ -122,6 +122,7 @@ li {
 .selfie {
 	width: 50%;
 	height: 100%;
+	max-width: 380px;
 	margin: 40px;
 	border: 2px solid #3D3D41;
 }
