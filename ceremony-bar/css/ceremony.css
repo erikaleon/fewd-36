@@ -76,9 +76,16 @@ a.navlinks {
 	font-style: italic;
 	font-family: 'Pontano Sans', sans-serif;
 	margin: 10px;
-
 }
 
+@media (max-width: 600px) {
+	#homepage-landing {
+		background: url(../images/taco-spread.jpg) no-repeat center center fixed; 
+		width: 600px;
+		height: auto;
+}
+
+}
 /*menu*/
 
 .menu-content {
