@@ -78,14 +78,13 @@ a.navlinks {
 	margin: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 	#homepage-landing {
-		background: url(../images/taco-spread.jpg) no-repeat center center fixed; 
-		width: 600px;
-		height: auto;
+		background: url(../images/taco-spread.jpg) center fixed; 
+  		width: 100%;
+	}
 }
 
-}
 /*menu*/
 
 .menu-content {
@@ -149,6 +148,18 @@ a.navlinks {
 	font-size: 16px;
 }
 
+@media (max-width: 750px) {
+	.menu-section {
+		padding-top: 100px;
+	}
+	.menu-section-header {
+		font-size: 20px;
+	}
+	.menu-item-price {
+		margin-left: 20px;
+	}
+}
+
 /*the space*/
 .space-content {
 	display: flex;
@@ -166,7 +177,7 @@ a.navlinks {
 	width: 300px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 	.space-content {
 		display: flex;
 		flex-wrap: wrap;
@@ -175,15 +186,15 @@ a.navlinks {
 
 	.space-image {
 		flex-direction: row;
-		margin: 15px;
+		margin: 10px;
 	}
 
 	.space-image img {
-		width: 200px;
+		width: 150px;
 	}
 }
 
-@media (min-width: 650px) {
+@media (min-width: 800px) {
 	.chips-image {
 		height: 400px;
   		object-fit: cover;
@@ -271,7 +282,7 @@ a.navlinks {
 	margin-left: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
 	.sides {
 		flex-direction: column-reverse;
