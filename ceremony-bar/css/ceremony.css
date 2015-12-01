@@ -55,7 +55,6 @@ a.navlinks {
 	-moz-background-size: cover;
 	-o-background-size: cover;
   	background-size: cover;
-	background-size: cover;	
 }
 
 .filler {
@@ -82,6 +81,7 @@ a.navlinks {
 	#homepage-landing {
 		background: url(../images/taco-spread.jpg) center fixed; 
   		width: 100%;
+  		background-size: cover;
 	}
 }
 
@@ -283,10 +283,15 @@ a.navlinks {
 }
 
 @media (max-width: 750px) {
+	#contact-landing {
+		background: url(../images/street-image.jpg) no-repeat center center fixed; 
+  		width: 100%;
+  		background-size: cover;
+	}
 
 	.sides {
 		flex-direction: column-reverse;
-		margin: 20px 10px 30px 10px;
+		margin: 20px 10px 0 10px;
 	}
 
 	.dates, .details, .social-media {

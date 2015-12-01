@@ -5,7 +5,7 @@ var content = document.querySelector(".space-content");
 window.addEventListener("scroll", changeNav)
 
 function changeNav(e) {
-	if ($(window).scrollTop() >= 0) {
+	if ($(window).scrollTop() >= -1) {
 		navbar.classList.add("navbar-floating");
 	}
 	else {
