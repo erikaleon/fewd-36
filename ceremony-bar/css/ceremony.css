@@ -55,14 +55,17 @@ a.navlinks {
 }
 #bg {
 	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
 }
 
 .tacos {
-	position: absolute;
-	object-fit: fill;
-/*	width: 100%;
+	width: 100%;
 	top: 0;
-*/}
+}
 
 .filler {
 	height: 400px;
@@ -73,13 +76,13 @@ a.navlinks {
 	padding: 100px 30px 30px 30px;
 	align-self: flex-end;
 	z-index: 2;
+	background-color: white;
 }
 
 .about-paragraph {
 	padding-top: 30px;
 	font-size: 18px;
 	color: #2E2E2E;
-	color: white;
 	font-style: italic;
 	font-family: 'Pontano Sans', sans-serif;
 	margin-top: 10px;
